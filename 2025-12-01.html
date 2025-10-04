@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>2025-12-01 学习记录</title>
+    <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+    <h1>2025-12-01 学习记录</h1>
+    <h2>学习引导笔记</h2>
+    <textarea rows="5" cols="60" placeholder="记录今天学到的内容..." onchange="addPoints(1)"></textarea>
+    <h2>语法挑战</h2>
+    <p>长句分析：The more you practice, the better your English becomes.</p>
+    <button onclick="addPoints(1)">完成挑战</button>
+    <h2>翻译练习</h2>
+    <p>翻译：我每天都坚持学习英语。</p>
+    <textarea rows="2" cols="60" placeholder="翻译成英文..." onchange="addPoints(1)"></textarea>
+    <script>
+        function addPoints(p) {
+            if (window.opener && window.opener.addPoints) {
+                window.opener.addPoints(p);
+            }
+        }
+    </script>
+</body>
+</html>

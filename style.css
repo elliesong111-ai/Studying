@@ -1,0 +1,8 @@
+
+body { font-family: Arial, sans-serif; margin: 20px; background-color: #f4f4f4; }
+h1, h2 { color: #333; }
+.calendar { display: flex; flex-wrap: wrap; gap: 10px; }
+.day { width: 100px; height: 100px; background-color: #fff; border: 1px solid #ccc; display: flex; align-items: center; justify-content: center; flex-direction: column; text-align: center; }
+.day a { text-decoration: none; color: #007BFF; }
+footer { margin-top: 40px; }
+.badge { margin: 5px; padding: 5px 10px; background-color: gold; border-radius: 5px; display: inline-block; }
